@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+    />
+    <title>Nav Bar Web Boost</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>Vigor</h1>
+        </div>
+        <nav class="navbar" id="navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="nested_home">
+              <a href="#">Services</a>
+              <ul class="nested">
+                <li><a href="#">Services 1</a></li>
+                <li><a href="#">Services 1</a></li>
+                <li><a href="#">Services 1</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Coaches</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="search_div">
+          <div class="search">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Search..." />
+          </div>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
